@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bannerItem {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.carouselItem {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.featured {
+
+}

@@ -1,0 +1,44 @@
+.header {
+    width: 95%;
+    padding: 5px 1vw 5px 1vw;
+    background-color: rgb(122, 179, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.header * {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    background-color: rgb(93, 134, 186);
+    text-decoration: none;
+    padding: 20px 1vw 20px 1vw;
+    margin-left: 1vw;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link:hover {
+    background-color: rgb(73, 105, 147);
+    transition: background-color 0.5s;
+}
+
+.header h1 {
+    background-color: rgb(122, 179, 253);
+    padding: 0 1vw 0 1vw;
+}
+
+.header h1:hover {
+    background-color: rgb(73, 105, 147);
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}

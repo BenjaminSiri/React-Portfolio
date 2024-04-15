@@ -1,0 +1,37 @@
+.projectCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: width 0.5s;
+}
+
+.projectCard:hover {
+    width: 60vw;
+    transition: width 0.5s;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image * {
+    border-radius: 20px;
+}
+
+.techUsed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.techUsed * {
+    margin-left: 5px;
+    margin-right: 5px;
+}
