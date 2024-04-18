@@ -6,13 +6,12 @@ import pyLogo from '../images/python-original.png';
 import javaLogo from '../images/java-original.png';
 import cLogo from '../images/c-plain.png';
 import goLogo from '../images/go-original-wordmark.png';
-import reactLogo from '../images/react-original.png';
-import js from '../images/javascript-original.png';
+import jsLogo from '../images/javascript-original.png';
 
 function Home() {
   const bannerText = "I'm a Computer Science student studying at The Pennsylvania State University. I'm interested in pursuing full-stack development as well as using my statistics minor to work with machine learning models.";
 
-  const pngArray = [pyLogo, javaLogo, cLogo, goLogo, js];
+  const pngArray = [pyLogo, javaLogo, cLogo, goLogo, jsLogo];
 
   const imgArray = pngArray.map((img) => { 
     return <img className={styles.carouselItem} src={img} alt="logo" />;
