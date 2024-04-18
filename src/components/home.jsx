@@ -11,7 +11,7 @@ import reactLogo from '../images/react-original.png';
 function Home() {
   const bannerText = "I'm a Computer Science student studying at The Pennsylvania State University. I'm interested in pursuing full-stack development as well as using my statistics minor to work with machine learning models.";
 
-  const pngArray = [pyLogo, javaLogo, cLogo, goLogo, reactLogo];
+  const pngArray = [pyLogo, javaLogo, cLogo, goLogo];
 
   const imgArray = pngArray.map((img) => { 
     return <img className={styles.carouselItem} src={img} alt="logo" />;
