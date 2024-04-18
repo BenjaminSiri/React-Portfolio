@@ -3,21 +3,21 @@
         {
             "name" : "Jamming",
             "description" : "This project is built with the React front-end framework and utilizes the Spotify API to search for songs and create playlists. A user can search for songs and build a playlist that can be added to their Spotify account.",
-            "image" : "https://github.com/BenjaminSiri/React-Portfolio/blob/main/src/images/react-original.png",
+            "image" : "react",
             "techList" : ["React, Spotify API, Git"],
             "link" : "https://neon-daifuku-128861.netlify.app"
         },
         {
             "name" : "Strange Attractor Application",
             "description" : "This project utilizes python and tkinter as a GUI. The project randomizes parameters into quadratic equations to create visualy striking strange attractor graphs.",
-            "image" : "https://github.com/BenjaminSiri/React-Portfolio/blob/main/src/images/strange-attractor.png",
+            "image" : "strange-attractor",
             "techList" : ["Python", "Tkinter", "Git"],
             "link" : "https://github.com/BenjaminSiri/Strange-Attractor-Application"
         },
         {
             "name" : "2048",
             "description" : "This project utilizes java and swing as a GUI. The game utilizes arrays and queues to handle functionality and scoring logic.",
-            "image" : "https://user-images.githubusercontent.com/50188950/226698152-e88d2f6e-78b7-42ef-9b5b-b1c0e1916325.png",
+            "image" : "2048",
             "techList" : ["Java, Swing, Git"],
             "link" : "https://github.com/BenjaminSiri/2048"
         }

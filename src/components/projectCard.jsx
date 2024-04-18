@@ -2,13 +2,24 @@ import React from 'react';
 
 import styles from '../styles/projectCard.module.css';
 
+import i2048 from '../images/2048.png';
+import strange from '../images/strange-attractor.png';
+import react from '../images/react-original.png';
+
 function ProjectCard(props) {
 
   const techList = props.techList.map((tech) => {
     return <h4>{tech}</h4>;
   });
 
-  console.log(props.image)
+  let image = null;
+  if(props.image === "2048") {
+    image = i2048;
+  } else if (props.image === "strange-attractor") {
+    image = strange;
+  } else if (props.image === "react") {
+    image = react;
+  }
 
   return (
     <div className={styles.projectCard}>
@@ -22,7 +33,7 @@ function ProjectCard(props) {
         </div>
       </div>
       <a href={props.link} target="_blank" rel="noreferrer"><div className={styles.image}>
-        <img href src={props.image} alt="project" />
+        <img href src={image} alt="project" />
       </div></a>
     </div>
   );
