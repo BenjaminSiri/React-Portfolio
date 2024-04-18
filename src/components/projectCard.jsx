@@ -2,12 +2,13 @@ import React from 'react';
 
 import styles from '../styles/projectCard.module.css';
 
-
 function ProjectCard(props) {
 
   const techList = props.techList.map((tech) => {
     return <h4>{tech}</h4>;
   });
+
+  console.log(props.image)
 
   return (
     <div className={styles.projectCard}>
@@ -20,9 +21,9 @@ function ProjectCard(props) {
           {techList}
         </div>
       </div>
-      <div className={styles.image}>
-        <img src={props.image} alt="project" />
-      </div>
+      <a href={props.link} target="_blank" rel="noreferrer"><div className={styles.image}>
+        <img href src={props.image} alt="project" />
+      </div></a>
     </div>
   );
 }

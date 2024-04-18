@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50vw;
+    width: 60vw;
     background-color: rgb(194, 194, 194);
     padding: 10px;
     border-radius: 20px;
@@ -11,7 +11,7 @@
 }
 
 .projectCard:hover {
-    width: 60vw;
+    width: 65vw;
     transition: width 0.5s;
 }
 
@@ -21,14 +21,22 @@
     justify-content: space-between;
 }
 
+.infoContent {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
 .image * {
     border-radius: 20px;
+    width: 220px;
+    height: 200px;
 }
 
 .techUsed {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .techUsed * {

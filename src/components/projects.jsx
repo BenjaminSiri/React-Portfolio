@@ -9,7 +9,7 @@ import ProjectCard from './projectCard';
 function Projects() {
 
   const projectComps = projectJSON.projects.map((project) => {
-    return <ProjectCard name={project.name} description={project.description} image={project.image} techList={project.techList} />;
+    return <ProjectCard name={project.name} description={project.description} image={project.image} techList={project.techList} link={project.link}/>;
   });
 
   return (

@@ -31,8 +31,6 @@ function Home() {
           {imgArray}
         </div>
         <div className={styles.featured}>
-          <h1>Featured Projects</h1>
-          
         </div>
     </div>
   );

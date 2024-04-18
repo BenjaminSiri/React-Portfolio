@@ -1,22 +1,25 @@
 {
     "projects" : [
         {
-            "name" : "Project 1",
-            "description" : "This is project 1",
-            "image" : "https://via.placeholder.com/150",
-            "techList" : ["HTML", "CSS", "JavaScript"]
+            "name" : "Jamming",
+            "description" : "This project is built with the React front-end framework and utilizes the Spotify API to search for songs and create playlists. A user can search for songs and build a playlist that can be added to their Spotify account.",
+            "image" : "https://private-user-images.githubusercontent.com/50188950/323522086-6bf72d20-702f-4c38-bcf1-e76a85517dd9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM0Mjg1NDcsIm5iZiI6MTcxMzQyODI0NywicGF0aCI6Ii81MDE4ODk1MC8zMjM1MjIwODYtNmJmNzJkMjAtNzAyZi00YzM4LWJjZjEtZTc2YTg1NTE3ZGQ5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDE4VDA4MTcyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgxMmZkNTliZjUxZDdhMWYyODRhNDhiY2QyYjQyNjgxNTZjMWNjZGE2NzkyYjBmNzM0MDg0Mzg1YjgwNGM4YmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0._7dPBUbhlX8uwGLSb0QHdkJsKsSRiUtQgYS9RhNyuAM",
+            "techList" : ["React, Spotify API, Git"],
+            "link" : "https://neon-daifuku-128861.netlify.app"
         },
         {
-            "name" : "Project 2",
-            "description" : "This is project 2",
-            "image" : "https://via.placeholder.com/150",
-            "techList" : ["HTML", "CSS", "JavaScript"]
+            "name" : "Strange Attractor Application",
+            "description" : "This project utilizes python and tkinter as a GUI. The project randomizes parameters into quadratic equations to create visualy striking strange attractor graphs.",
+            "image" : "https://private-user-images.githubusercontent.com/50188950/240078552-c1884e9e-c3c4-4779-b8ce-f66359b22b31.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM0Mjc2MDIsIm5iZiI6MTcxMzQyNzMwMiwicGF0aCI6Ii81MDE4ODk1MC8yNDAwNzg1NTItYzE4ODRlOWUtYzNjNC00Nzc5LWI4Y2UtZjY2MzU5YjIyYjMxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDE4VDA4MDE0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzMWVjOTk3YjA0ZDU4ODQ3OTk3NjZmNDRjYjBiYTMwYTI4NGMzYTNlNDM3ODg2ODFjOWI3OTU1YTFkMDRjMDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.rGlZbeyorgpDgc2_aN1XOXiaXr_nfS-1NXWcZttFp5I",
+            "techList" : ["Python", "Tkinter", "Git"],
+            "link" : "https://github.com/BenjaminSiri/Strange-Attractor-Application"
         },
         {
-            "name" : "Project 3",
-            "description" : "This is project 3",
-            "image" : "https://via.placeholder.com/150",
-            "techList" : ["HTML", "CSS", "JavaScript"]
+            "name" : "2048",
+            "description" : "This project utilizes java and swing as a GUI. The game utilizes arrays and queues to handle functionality and scoring logic.",
+            "image" : "https://user-images.githubusercontent.com/50188950/226698152-e88d2f6e-78b7-42ef-9b5b-b1c0e1916325.png",
+            "techList" : ["Java, Swing, Git"],
+            "link" : "https://github.com/BenjaminSiri/2048"
         }
     ]
 }
